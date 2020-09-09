@@ -4,7 +4,7 @@ describe('User can see interface with series', () => {
     cy.route({
       method: "GET",
       url: "https://content.viaplay.se/pc-se/serier/samtliga",
-      response: "fixture:movie_index.json"
+      response: "fixture:series_index.json"
     })
     cy.visit("/")
   });
