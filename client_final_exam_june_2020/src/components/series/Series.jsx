@@ -26,5 +26,4 @@ function Series() {
     </div>
   )
 }
-
 export default Series

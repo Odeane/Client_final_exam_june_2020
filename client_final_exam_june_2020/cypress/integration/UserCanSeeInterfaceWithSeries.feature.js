@@ -18,4 +18,8 @@ describe('User can see interface with series', () => {
       cy.get('.series__img').should('exist')
     })
   }); 
+
+  it('User can see footer', () => {
+    cy.get('.footer').shoud('exist')
+  });
 });
