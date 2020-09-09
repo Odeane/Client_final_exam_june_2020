@@ -12,5 +12,10 @@ describe('User can see interface with series', () => {
   it('user should see logo', () => {
     cy.get('#nav_logo_img').should('exist')
   });
-  
+
+  it('User can see a list of the series', () => {
+    cy.get('.series_container').within(() => {
+      cy.get('.series__img').should('exist')
+    })
+  }); 
 });
