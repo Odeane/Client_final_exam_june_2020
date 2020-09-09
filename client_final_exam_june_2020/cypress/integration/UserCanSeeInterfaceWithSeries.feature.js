@@ -20,6 +20,6 @@ describe('User can see interface with series', () => {
   }); 
 
   it('User can see footer', () => {
-    cy.get('.footer').shoud('exist')
+    cy.get('.footer').should('have.css', 'bottom')
   });
 });
