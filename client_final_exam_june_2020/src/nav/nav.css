@@ -1,0 +1,10 @@
+.navbar{
+  height: 15px;
+  padding: 12px;
+  background-color: black;
+}
+
+#nav_logo_img{
+  width: 90px;
+  margin-left: 8%;
+}

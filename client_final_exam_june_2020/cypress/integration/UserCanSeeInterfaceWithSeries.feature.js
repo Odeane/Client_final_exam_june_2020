@@ -10,7 +10,7 @@ describe('User can see interface with series', () => {
   });
 
   it('user should see logo', () => {
-    cy.get('#id').should('exist')
+    cy.get('#nav_logo_img').should('exist')
   });
   
 });
